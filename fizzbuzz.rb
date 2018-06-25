@@ -5,5 +5,7 @@ def fizzbuzz
     puts "Fizz" 
   elsif int % 5 == 0
     puts "Buzz"
-  else 
+  elsif int % 15 == 0
+    puts  "Fizzbuzz"
+  else
 end
